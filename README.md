@@ -25,13 +25,18 @@ The web-application predicts the emotion from the audio input given.It can also 
 
 # Test Cases-
 
- * case - 1 : https://user-images.githubusercontent.com/76607471/177053274-03896a05-9813-4c09-9a13-4c36b1230a0b.mp4
+ * case - 1 :
+ 
+ https://user-images.githubusercontent.com/76607471/177053274-03896a05-9813-4c09-9a13-4c36b1230a0b.mp4
+ 
  <p align ="center" >
   <img  width="700" src="https://github.com/Vinayak2002/Vaak-Bhaavna/blob/main/images/male.gif" alt="Material Bread logo">
   </p>
   
-  * case - 2 : https://user-images.githubusercontent.com/76607471/177053298-cd36a032-5e00-4e00-a68d-ffb7c03cc548.mp4
-  * 
+  * case - 2 :
+  
+  https://user-images.githubusercontent.com/76607471/177053298-cd36a032-5e00-4e00-a68d-ffb7c03cc548.mp4
+  
  <p align ="center" >
   <img  width="700" src="https://github.com/Vinayak2002/Vaak-Bhaavna/blob/main/images/female.gif" alt="Material Bread logo">
   </p>
