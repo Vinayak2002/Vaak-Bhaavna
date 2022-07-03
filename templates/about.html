@@ -1,0 +1,91 @@
+{% extends 'home.html' %}
+{% load static %}
+
+<!-- Bootstrap CSS -->
+  {% block bootstrap %}
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  {% endblock %}
+
+  {% block css %}
+  	<link rel="stylesheet" href="{% static 'assets/css/main.css' %}" />
+	<noscript><link rel="stylesheet" href="{% static 'assets/css/noscript.css' %}" /></noscript>
+  {% endblock %}
+
+  {% block title %}
+  <title> VAAK -BHAAVNA </title>
+  {% endblock %}
+
+{% block content %}
+<div id="wrapper">
+<!-- Header -->
+    <header id="header">
+        <a href="/" class="logo">VAAK BHAAVNA</a>
+    </header>
+
+
+<!-- Nav -->
+    <nav id="nav">
+        <ul class="links">
+            <li ><a href="/">HOME</a></li>
+            <li><a href="record">RECORD</a></li>
+            <li><a href="audio">UPLOAD</a></li>
+            <li class="active"><a href="about">ABOUT</a></li>
+        </ul>
+    </nav>
+
+<div id="main">
+        <header class="major">								
+            <span class="date">HACKMANTHAN 2022</span>
+            <h2><a href="#">VAAK BHAAVNA<br />
+            </a></h2>
+            <p><strong>It is necessary to know the emotion behind a voice</strong></p>		 
+            <p><strong>Vaak-Bhaavna</strong> is a website-based application which tells us about emotions as well as gender of the speaker with the help of the speech input which the person gives and based on its speech-emotion recognition technique.It can classify emotion into 3 classes: Positive,Negative and Neutral. The emotions which can be classified into happy, sad, fear, angry, disgust, neutral and surprise.</p>
+        </header>	
+                                    
+            
+            
+        <div class="box">
+            <div class="row">
+                <div class="col-6 col-12-small">
+                    <ul class="actions stacked">
+                        <li><a href="https://github.com/Vinayak2002/Hackmanthan_VVS" class="button primary fit" target="_blank">GitHub repository of the web-application</a></li>        
+                    </ul>
+                </div>
+                <div class="col-6 col-12-small">
+                    <ul class="actions stacked">
+                        <li><a href="https://en.wikipedia.org/wiki/Emotion_recognition" target="_blank" class="button primary fit">Emotion Recognition Wikipedia</a></li>	
+                    </ul>
+                </div>
+            </div>
+        </div>		
+
+        <h2>TEAM MEMBERS </h2>
+
+        <div class="box">
+            <div class="row">
+                <div class="col-4 col-12-small">
+                    <img src="{% static 'images\sankalp.png' %}" alt="Avatar" style="width:100%">
+                    <ul class="actions stacked">
+                        <li><a href="https://www.linkedin.com/in/sankalpvarma2506/" target="_blank" class="button primary fit"> SANKALP VARMA</a></li>                                                            
+                    </ul>
+                </div>
+                <div class="col-4 col-12-small">
+                    <img src="{% static 'images\vinayak.png' %}" alt="Avatar" style="width:100%">
+                    <ul class="actions stacked">
+                        <li><a href="https://www.linkedin.com/in/vinayak-shrivastava-b6906b202/" target="_blank" class="button primary fit">VINAYAK SHRIVASTAVA</a></li>	   
+                    </ul>
+                </div>
+                <div class="col-4 col-12-small">
+                    <img src="{% static 'images\vikalp.png' %}" alt="Avatar" style="width:100%">
+                    <ul class="actions stacked">
+                        <li><a href="https://www.linkedin.com/in/vikalp-tripathi-187190202/" target="_blank" class="button primary fit">VIKALP KUMAR TRIPATHI</a></li>                                     
+                    </ul>
+                </div>
+            </div>
+        </div>	
+                
+    </section>
+</div>
+
+{% endblock %}

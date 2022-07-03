@@ -1,0 +1,19 @@
+*********************** Do This ***********************
+Create a virtual environment with python==3.9
+commands for conda:
+
+conda create --name VB
+conda activate VB
+conda install python==3.9
+
+*********************** OR ***********************
+conda env create -f environment.yml
+
+*********************** Compulsory ***********************
+pip install -r requirements.txt
+
+npm install ffmpeg
+
+Add Secret Key in the settings.py file.
+
+python manage.py runserver

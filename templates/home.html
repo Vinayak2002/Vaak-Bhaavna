@@ -1,0 +1,170 @@
+{% load static %}
+
+<!DOCTYPE HTML>
+ 
+<html>
+	<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+
+  <!-- Bootstrap CSS -->
+  {% block bootstrap %}
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  {% endblock %}
+
+  {% block css %}
+  	<link rel="stylesheet" href="{% static 'assets/css/main.css' %}" />
+	<noscript><link rel="stylesheet" href="{% static 'assets/css/noscript.css' %}" /></noscript>
+  {% endblock %}
+
+  {% block title %}
+  <title> VAAK -BHAAVNA </title>
+  {% endblock %}
+  <link rel="icon" href="{% static 'favicon.ico' %}">
+</head>
+
+<body class="is-preload">
+  {% block alert %}
+  
+  {% endblock %}
+
+  {% block content %}
+<div id="wrapper" class="fade-in">
+
+				<!-- Intro -->
+					<div id="intro">
+						<h1>VAAK<br> BHAAVNA <br> <br>
+							वाक् भावना </h1>
+						<p>"आवाज में छुपी हुई भावना को जानना है जरूरी" </p>
+						<ul class="actions">
+							<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
+						</ul>
+					</div>
+
+				<!-- Header -->
+					<header id="header">
+						<a href="/" class="logo">VAAK BHAAVNA</a>
+					</header>
+
+				<!-- Nav -->
+					<nav id="nav">
+						<ul class="links">
+							<li class="active"><a href="/">HOME</a></li>
+							<li><a href="record">RECORD</a></li>
+							<li><a href="audio">UPLOAD</a></li>
+							<li><a href="about">ABOUT</a></li>
+						</ul>
+
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Featured Post -->
+							<div class="post featured">
+								<header class="major">
+									<img class ="logo" src="https://hackmanthan.com/images/cgpolice.png" alt="">	
+								<br><br>						
+
+									<span class="date">HACKMANTHAN 2022</span>
+									<h2><a href="#">VAAK BHAAVNA<br />
+									</a></h2>
+									<p><strong>It is necessary to know the emotion behind a voice</strong></p>
+									<p><strong>Vaak-Bhaavna</strong>
+										 is a website which tells us about emotions as well as gender of the speaker with the help of the speech input which the person gives and based on its speech-emotion recognition technique.It can classify emotion into 3 classes: Positive,Negative and Neutral. The emotions which can be classified into happy, sad, fear, angry, disgust, neutral and surprise.</p> 
+								</header>											
+							
+						
+
+						<!-- Posts -->
+						<h2>Features of site</h2>
+							<section class="posts">
+
+								<hr />
+
+								<!-- Blockquote -->
+									<h2>ANALYSIS</h2>
+								<img class="image" src="{% static 'images/analysis.png' %}" alt="">
+									<blockquote>Analyzing the wave form of the audio given as input using MFCCs and Mel-log-spectrogram.</blockquote>
+
+									<hr />
+
+									<hr />
+
+									<!-- Blockquote -->
+										<h2>Gender Prediction</h2>
+										<img class="image" src="{% static 'images/gender.png' %}" alt="">
+										
+										<blockquote>Predicting speaker gender that is whether the speaker is male or female  with the help of speech given as input.</blockquote>
+	
+										<hr />
+
+										<hr />
+
+										<!-- Blockquote -->
+											<h2>EMOTION PREDICTION</h2>
+											<img class="image" src="{% static 'images/bipolar.png' %}" alt="">
+											
+											<blockquote>Predicting speaker emotion with the help of speech given as input.<br>
+												<strong>3 emotion:</strong> Positive, Negative, Neutral<br>
+												<strong>6 emotion:</strong>Happy, sad, Angry, Fear, Neutral, Surprise<br>
+												<strong>7 emotion:</strong> Disugust,Happy, sad, Angry, Fear, Neutral, Surprise<br></blockquote>
+		
+											<hr />		
+											
+
+							
+						
+													
+							</section>
+
+							<div class = "box">
+								<h1>HOW TO USE </h1>
+				
+								<p class="card-text mx-auto" id="text">	
+									The web-application predicts the emotion from the audio input given.It can also predict the gender of the speaker.	
+							  You can 					
+							either upload an audio file	you can record the live audio and download it in .wav  format 
+								
+							</p>
+							<div class="row">
+								<div class="col-6 col-12-small">
+									<ul class="actions stacked">
+										<li><a href="record" class="button primary fit">RECORD</a></li>
+																			
+									</ul>
+								</div>
+								<div class="col-6 col-12-small">
+									<ul class="actions stacked">
+										<li><a href="audio" class="button primary fit">UPLOAD</a></li>	
+									
+										
+									</ul>
+								</div>
+							</div>
+			</div>	
+		</div>
+	</div>
+  {% endblock %}
+
+  {% block predictions %}
+  {% endblock %}
+  
+  {% block footer %}
+    <div id="copyright">
+      <ul><li>&copy; VAAK BHAVNA</li><li>HACKMANTHAN 2022</a></li></ul>
+    </div>
+  {% endblock %}
+
+  {% block script %}
+  <script src="{% static 'assets/js/jquery.min.js' %}"></script>
+  <script src="{% static 'assets/js/jquery.scrollex.min.js' %}"></script>
+  <script src="{% static 'assets/js/jquery.scrolly.min.js' %}"></script>
+  <script src="{% static 'assets/js/browser.min.js' %}"></script>
+  <script src="{% static 'assets/js/breakpoints.min.js' %}"></script>
+  <script src="{% static 'assets/js/util.js' %}"></script>
+  <script src="{% static 'assets/js/main.js' %}"></script>
+  {% endblock %}
+</body>
+
+</html>

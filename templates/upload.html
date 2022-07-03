@@ -1,0 +1,98 @@
+{% extends 'home.html' %}
+{% load static %}
+
+{% block css %}
+    <link rel="stylesheet" href="{% static 'assets/css/main.css' %}" />
+	<noscript><link rel="stylesheet" href="{% static 'assets/css/noscript.css' %}" /></noscript>
+    <style>
+        .grid-container {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            gap: 25px;
+            /* gap: 70px 70px; */
+        }
+
+        .predict-graph {
+            width: 600px;
+        }
+
+        .predict-plot {
+            width: 300px
+        }
+
+        .wave, .gender {
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+
+        .mfcc {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            column-gap: 20px;
+        }
+
+        .pie {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            column-gap: 20px;
+        }
+    </style>
+{% endblock %}
+
+{% block content %}
+    <div id="wrapper">
+        <header id="header">
+            <a href="/" class="logo">VAAK BHAAVNA</a>
+        </header>
+        <nav id="nav">
+            <ul class="links">
+                <li ><a href="/">HOME</a></li>
+                <li><a href="record">RECORD</a></li>
+                <li class="active"><a href="audio">UPLOAD</a></li>
+                <li><a href="about">ABOUT</a></li>
+            </ul>
+        </nav>
+
+        <div id="main">
+            <header class="major">								
+                <span class="date">HACKMANTHAN 2022</span>
+                <h2><a href="#">VAAK BHAAVNA	</a></h2>
+                <p><strong>It is necessary to know the emotion behind a voice</strong></p>		 
+            </header>	
+
+            {% if not show %}            
+            <form action="audio" method = "post" enctype="multipart/form-data" class="mx-auto" id="form"> 
+                {% csrf_token %} 
+                <div class="mx-auto" id="head" style="margin: 20px auto;">
+                    <p id="heading" style="text-align: center; font-weight: bold">Upload Audio </p>
+                </div>
+                <label for="id_file"><strong>Audio File (.wav)</strong> </label>
+                <div class="mb-5">
+                {{ form }} 
+                </div>
+                <ul class="actions stacked">
+                    <li><button type="submit" class="button primary fit">Upload</button></li>
+                </ul>
+            </form>
+            {% endif %}
+            
+            {% if show %}
+            <div class="result grid-container">
+                <img src="data:image/png;base64,{{ waveplot|safe }}" class="predict-graph grid-item wave">
+                <!-- <div class="mfcc"></div> -->
+                <img src="data:image/png;base64,{{ specshow|safe }}" class="predict-graph grid-item wave">
+                <img src="data:image/png;base64,{{ specshowlog|safe }}" class="predict-graph grid-item wave">
+                <div class="pie">
+                    <img src="data:image/png;base64,{{ predict3|safe }}" class="predict-plot grid-item">
+                    <img src="data:image/png;base64,{{ predict6|safe }}" class="predict-plot grid-item">
+                    <img src="data:image/png;base64,{{ predict7|safe }}" class="predict-plot grid-item">
+                </div>
+                <img src="data:image/png;base64,{{ predictgender|safe }}" class="predict-plot grid-item gender">
+            </div>    
+            {% endif %}
+        </div>
+{% endblock %}

@@ -1,0 +1,34 @@
+body, html {
+    height: 120%;
+    margin: 0;
+    background-color: azure;
+  }
+  
+  
+
+#info{
+    max-width: 1600px;
+    text-align: center;
+    
+}
+
+h3 {
+    font-size: 2.5em;
+    padding: 1em;
+}
+
+#text{
+    font-size: 1.5em;max-width: 1000px;padding-bottom: 50px;
+}
+#name{
+    font-size: 20px;;
+}
+#disclamer{
+    padding-top: 100px;
+}
+#foot{
+    width: 320px;
+}
+#copyright{
+    width: 200px;
+}

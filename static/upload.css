@@ -1,0 +1,24 @@
+body {
+    background-color:azure;
+}
+#form {
+    width: 500px;margin-top: 40px;
+}
+#head {
+    width: 280px;margin-bottom: 30px;
+}
+#heading{
+    font-size: 25px;
+}
+#button{
+    width: 100px;margin-top:20px;
+}
+#bottom{
+    width: 250px;margin-bottom: 120px;padding-top: 20px;
+}
+#foot{
+    width: 320px;
+}
+#copyright{
+    width: 200px;
+}

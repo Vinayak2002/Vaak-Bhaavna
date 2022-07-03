@@ -1,0 +1,79 @@
+{% extends 'home.html' %}
+{% load static %}
+
+{% block css %}
+    <link rel="stylesheet" href="{% static 'assets/css/main.css' %}" />
+	<noscript><link rel="stylesheet" href="{% static 'assets/css/noscript.css' %}" /></noscript>
+    
+{% endblock %}
+
+{% block alert %}
+<div class="alert alert-danger" role="alert">
+    {{ message }}
+</div>
+{% endblock %}
+
+{% block content %}
+<div id="wrapper">
+    <header id="header">
+        <a href="/" class="logo">VAAK BHAAVNA</a>
+    </header>
+
+    <nav id="nav">
+        <ul class="links">
+            <li ><a href="/">HOME</a></li>
+            <li class="active"><a href="record">RECORD</a></li>
+            <li><a href="audio">UPLOAD</a></li>
+            <li><a href="about">ABOUT</a></li>
+        </ul>
+    </nav>
+
+    <div id="main">
+        <header class="major">								
+            <span class="date">HACKMANTHAN 2022</span>
+            <h2><a href="#">VAAK BHAAVNA	</a></h2>
+            <p><strong>"आवाज में छुपी हुई भावना को जानना है जरूरी"</strong></p>		 
+        </header>	
+                
+        <form class="mx-auto " id="form" method="POST">{% csrf_token %}
+            <div class="mx-auto" id="head">
+            <p id="heading" style="text-align: center; font-weight: bold">Record Audio </p>
+            </div>
+            <div class="mb-5">
+            <label for="rec_audio" class="form-label"><strong>Record</strong> </label>
+            <input type="file" accept="audio/*" capture=microphone id="rec_audio" class="form-control"/>
+            <!-- <input type="email"  id="Email" name="email_"> -->
+
+            </div>
+
+            <ul class="actions stacked">
+                <li><button type="submit" class="button primary fit">Record</button></li>
+            </ul>
+
+            
+
+            <!-- <div class=" actions stacked" id="button">
+            <button type="#" class="button primary fit"><strong>Record</strong></button>
+            </div> -->
+            
+        </form>
+        
+
+        <header class="major">								
+            <span class="date">Work in progress</span>	 
+        </header>	
+
+    </div>
+</div>
+
+{% endblock %}
+
+{% block script %}
+  <script src="{% static 'assets/js/jquery.min.js' %}"></script>
+  <script src="{% static 'assets/js/jquery.scrollex.min.js' %}"></script>
+  <script src="{% static 'assets/js/jquery.scrolly.min.js' %}"></script>
+  <script src="{% static 'assets/js/browser.min.js' %}"></script>
+  <script src="{% static 'assets/js/breakpoints.min.js' %}"></script>
+  <script src="{% static 'assets/js/util.js' %}"></script>
+  <script src="{% static 'assets/js/main.js' %}"></script>
+{% endblock %}

@@ -1,0 +1,12 @@
+{
+  "requires": true,
+  "lockfileVersion": 1,
+  "dependencies": {
+    "ffmpeg": "0.0.4",
+    "when": {
+      "integrity": "sha512-5cZ7mecD3eYcMiCH4wtRPA5iFJZ50BJYDfckI5RRpQiktMiYTcn0ccLTZOvcbBume+1304fQztxeNzNS9Gvrnw==",
+      "resolved": "https://registry.npmjs.org/when/-/when-3.7.8.tgz",
+      "version": "3.7.8"
+    }
+  }
+}

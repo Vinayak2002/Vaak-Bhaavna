@@ -1,0 +1,19 @@
+body {
+    background-color:rgb(62, 62, 65);
+}
+#head{
+    max-width: 900px;color: white;padding-bottom: 80px;padding-top: 20px;
+}
+
+#content{
+    padding-left: 335px;
+    padding-bottom: 25px;
+    
+}
+
+#foot{
+    width: 320px;
+}
+#copyright{
+    width: 200px;
+}
