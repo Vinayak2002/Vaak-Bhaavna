@@ -17,5 +17,19 @@ Vaak-Bhaavna is a website which tells us about emotions as well as gender of the
 # How to use - 
 The web-application predicts the emotion from the audio input given.It can also predict the gender of the speaker. You can either upload an audio file you can record the live audio and download it in .wav format
 
-# Images -
 
+# Website layout
+ <p align ="center" >
+  <img  width="700" src="https://github.com/Vinayak2002/Vaak-Bhaavna/blob/main/images/site.gif" alt="Material Bread logo">
+  </p>
+
+# Test Cases-
+ * case - 1 :
+ <p align ="center" >
+  <img  width="700" src="https://github.com/Vinayak2002/Vaak-Bhaavna/blob/main/images/male.gif" alt="Material Bread logo">
+  </p>
+  
+  * case - 2 :
+ <p align ="center" >
+  <img  width="700" src="https://github.com/Vinayak2002/Vaak-Bhaavna/blob/main/images/female.gif" alt="Material Bread logo">
+  </p>
