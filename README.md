@@ -1,7 +1,7 @@
 # StockChart
 
 The website shows the performance of stocks, in the form of Candlestick Chart
-Currently we provide only selected stocks
+Currently we provide only selocks
 You can select the Stock Symbol and theInterval in which you want the chart
 to be plotted.
 
