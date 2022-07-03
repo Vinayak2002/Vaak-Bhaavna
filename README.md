@@ -52,36 +52,36 @@ The web-application predicts the emotion from the audio input given.It can also 
 ## Instructions for running the application
 
 Clone the repository:
-``zsh
+```zsh
 git clone https://github.com/Vinayak2002/Vaak-Bhaavna.git
-``
+```
 
 Create a new virtual environment from the yml file:
-``zsh
+```zsh
 conda env create -f environment.yml
-``
+```
 
 Activate the virtual environment :
-``zsh
+```zsh
 conda activate FinalWebsite
-``
+```
 
 Install all required python packages :
-``zsh
+```zsh
 pip install -r requirements.txt
-``
+```
 
 Install the node package:
-``zsh
+```zsh
 npm install ffmpeg
-``
+```
 
 Add the Secret Key in the settings.py file.
 
 Run the application :
-``python
+```python
 python manage.py runserver
-``
+```
 ---
 
 Made with :heart: at IIIT Naya Raipur .
