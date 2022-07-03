@@ -1,5 +1,5 @@
 <H1 align =center>VAAK BHAAVNA </H1>
-<p align =center>"वाक् भावना"</p>
+<p align =center>" वाक् भावना "</p>
 <p align =center>"आवाज में छुपी हुई भावना को जानना है जरूरी"</p>
 <p align="center">
   <img width="200" src="https://github.com/Vinayak2002/Vaak-Bhaavna/blob/main/images/logo.jpeg" alt="Material Bread logo">
