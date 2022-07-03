@@ -1,92 +1,21 @@
-﻿Vaak-Bhaavna
-
-<img alt="Python" src="https://img.shields.io/badge/python-%2314354C.svg?style=for-the-badge&logo=python&logoColor=white"/> <img alt="Tensorflow" src="https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white"/> <img alt="Windows 10" src="https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white" /> <img alt="Tenserflow" src="https://img.shields.io/badge/django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white" />
- 
-
-> 
-
-## Project Outcome
-
-<img alt="Complete Project" src="images/Complete_Project.jpeg"/>
+<H1 align =center>VAAK BHAAVNA </H1>
+<p align =center>"वाक् भावना"</p>
+<p align =center>"आवाज में छुपी हुई भावना को जानना है जरूरी"</p>
 
 
-## Things required for the project
+Vaak-Bhaavna is a website which tells us about emotions as well as gender of the speaker with the help of the speech input which the person gives and based on its speech-emotion recognition technique.It can classify emotion into 3 classes: Positive,Negative and Neutral. The emotions which can be classified into happy, sad, fear, angry, disgust, neutral and surprise.
 
-- [x] Node MCU
-- [x] RFID Module
-- [x] 2 RFID Tags
-- [x] 2 LED(one red and one green)
-- [x] 2 Resistor(220 ohms)
-- [x] Jumper Wire
-- [x] Breadboard
-- [x] Thingspeak ID
+# Features - 
 
-Extras:
-- [x] PC
-- [x] WiFi Router
-- [x] USB to micro USB cable
+* ANALYSIS - Analyzing the wave form of the audio given as input using MFCCs and Mel-log-spectrogram.
+* GENDER PREDICTION - Predicting speaker gender that is whether the speaker is male or female with the help of speech given as input.
+* EMOTION PREDICTION - Predicting speaker emotion with the help of speech given as input.
+  * 3 emotion: Positive, Negative, Neutral
+  * 6 emotion:Happy, sad, Angry, Fear, Neutral, Surprise
+  * 7 emotion: Disugust,Happy, sad, Angry, Fear, Neutral, Surprise
+  
+# How to use - 
+The web-application predicts the emotion from the audio input given.It can also predict the gender of the speaker. You can either upload an audio file you can record the live audio and download it in .wav format
 
+# Images -
 
-## Block Diagram
-
-![Block Diagram](images/Block_Diagram.jpeg)
-
-
-## Connection Diagram
-
-- connect RED LED to D2
-- connect GREEN LED to D1
-
-![Connection between RFID and Node MCU](images/RFID_to_NodeMCU.jpeg)
-
-Thanks to [miliohm](https://www.youtube.com/channel/UCmpic0ZzBNzD1W0dTBqfQLQ) for [How to use RFID Reader with NodeMCU - RC522 RFID Reader Tutorial](https://www.youtube.com/watch?v=SQIGilMagm0) video 
-
-![Complete Connection](images/Circuit_Diagram.jpeg)
-
-
-## Prerequisites
-
-1. Basics of Python 
-2. Basics of C++ (for Arduino Programming)
-3. Basics of electrical circuit 
-4. Basics of Thingspeak
-
-
-## Instructions for running Arduino code
-
-Install the following pakages :
-- SPI
-- MFRC522
-- ThingSpeak
-- ESP8266WiFi
-
-Fill the following things in the code
-```cpp
-#define SECRET_SSID "Wifi Name"
-#define SECRET_PASS "Wifi Password"
-#define SECRET_CH_ID 0 // Channel ID here
-#define SECRET_WRITE_APIKEY "Write API Key"
-```
-
-
-## Instructions for running Python code
-
-Run in terminal :
-```zsh
-pip install thingspeak
-```
-
-Create a file name apikey.py in same folder as code.py :
-```python
-my_channel_id =  0 # channel id here 
-my_write_api_key = "Write API Key"
-my_read_api_key = "Read API Key"
-```
-
-Run in terminal :
-```zsh
-python code.py
-```
----
-
-Made with :heart: at IIIT Naya Raipur .
