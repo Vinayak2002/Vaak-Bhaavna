@@ -1,31 +1,22 @@
-# StockChart
-
-The website shows the performance of stocks, in the form of Candlestick Chart
-Currently we provide only selocks
-You can select the Stock Symbol and theInterval in which you want the chart
-to be plotted.
-
-To access the functionality of the website, you have first signup and then login to the website.
-
-You can also view the demo chart with demo chart button in the Navigation Bar
-
-## Home page -
-
-![home1](https://user-images.githubusercontent.com/75775994/123047847-61814780-d41b-11eb-988a-8601ef898842.PNG)
+<H1 align =center>VAAK BHAAVNA </H1>
+<p align =center>"वाक् भावना"</p>
+<p align =center>"आवाज में छुपी हुई भावना को जानना है जरूरी"</p>
 
 
-![home2](https://user-images.githubusercontent.com/75775994/123047869-66de9200-d41b-11eb-9afc-2c92f95ea511.PNG)
+Vaak-Bhaavna is a website which tells us about emotions as well as gender of the speaker with the help of the speech input which the person gives and based on its speech-emotion recognition technique.It can classify emotion into 3 classes: Positive,Negative and Neutral. The emotions which can be classified into happy, sad, fear, angry, disgust, neutral and surprise.
 
+# Features - 
 
-## Login Page - 
+* ANALYSIS - Analyzing the wave form of the audio given as input using MFCCs and Mel-log-spectrogram.
+* GENDER PREDICTION - Predicting speaker gender that is whether the speaker is male or female with the help of speech given as input.
+* EMOTION PREDICTION - Predicting speaker emotion with the help of speech given as input.
+  * 3 emotion: Positive, Negative, Neutral
+  * 6 emotion:Happy, sad, Angry, Fear, Neutral, Surprise
+  * 7 emotion: Disugust,Happy, sad, Angry, Fear, Neutral, Surprise
+  
+# How to use - 
+The web-application predicts the emotion from the audio input given.It can also predict the gender of the speaker. You can either upload an audio file you can record the live audio and download it in .wav format
 
-![login](https://user-images.githubusercontent.com/75775994/123047923-79f16200-d41b-11eb-9b4a-abb70ee99e30.PNG)
-
-
-## Signup Page - 
-![signup](https://user-images.githubusercontent.com/75775994/123047943-81b10680-d41b-11eb-94e5-c2a811398473.PNG)
-
-## Visual Page -
-![image](https://user-images.githubusercontent.com/76607467/123054969-05222600-d423-11eb-9f13-428a403c4899.png)
+# Images -
 
 
