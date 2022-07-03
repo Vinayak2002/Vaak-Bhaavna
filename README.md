@@ -1,4 +1,4 @@
-# StockChart
+# Vaak-Bhaavna
 
 The website shows the performance of stocks, in the form of Candlestick Chart
 Currently we provide only selected stocks
