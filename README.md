@@ -17,6 +17,15 @@ Vaak-Bhaavna is a website which tells us about emotions as well as gender of the
   * 6 emotion:Happy, sad, Angry, Fear, Neutral, Surprise
   * 7 emotion: Disugust,Happy, sad, Angry, Fear, Neutral, Surprise
   
+# Technologies used:
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) <br />
+![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white) <br />
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) <br />
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) <br />
+![Bootstrap](https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white) <br />
+![Anaconda](https://img.shields.io/badge/Anaconda-%2344A833.svg?style=for-the-badge&logo=anaconda&logoColor=white) <br />
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) <br />
+
 # How to use - 
 The web-application predicts the emotion from the audio input given.It can also predict the gender of the speaker. You can either upload an audio file you can record the live audio and download it in .wav format
 
