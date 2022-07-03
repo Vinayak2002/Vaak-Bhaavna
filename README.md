@@ -1,6 +1,9 @@
 <H1 align =center>VAAK BHAAVNA </H1>
 <p align =center>"वाक् भावना"</p>
 <p align =center>"आवाज में छुपी हुई भावना को जानना है जरूरी"</p>
+<p align="center">
+  <img width="200" src="https://github.com/Vinayak2002/Vaak-Bhaavna/blob/main/images/logo.jpeg" alt="Material Bread logo">
+</p>
 
 
 Vaak-Bhaavna is a website which tells us about emotions as well as gender of the speaker with the help of the speech input which the person gives and based on its speech-emotion recognition technique.It can classify emotion into 3 classes: Positive,Negative and Neutral. The emotions which can be classified into happy, sad, fear, angry, disgust, neutral and surprise.
@@ -33,6 +36,9 @@ The web-application predicts the emotion from the audio input given.It can also 
   <img  width="700" src="https://github.com/Vinayak2002/Vaak-Bhaavna/blob/main/images/male.gif" alt="Material Bread logo">
   </p>
   
+ * OUTPUT- 
+ 
+  
   * case - 2 :
   
   https://user-images.githubusercontent.com/76607471/177053298-cd36a032-5e00-4e00-a68d-ffb7c03cc548.mp4
@@ -40,3 +46,41 @@ The web-application predicts the emotion from the audio input given.It can also 
  <p align ="center" >
   <img  width="700" src="https://github.com/Vinayak2002/Vaak-Bhaavna/blob/main/images/female.gif" alt="Material Bread logo">
   </p>
+
+ * OUTPUT- 
+
+## Instructions for running the application
+
+Clone the repository:
+zsh
+git clone https://github.com/Vinayak2002/Vaak-Bhaavna.git
+
+
+Create a new virtual environment from the yml file:
+zsh
+conda env create -f environment.yml
+
+
+Activate the virtual environment :
+zsh
+conda activate FinalWebsite
+
+
+Install all required python packages :
+zsh
+pip install -r requirements.txt
+
+
+Install the node package:
+zsh
+npm install ffmpeg
+
+Add the Secret Key in the settings.py file.
+
+Run the application :
+python
+python manage.py runserver
+
+---
+
+Made with :heart: at IIIT Naya Raipur .
