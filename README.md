@@ -15,7 +15,7 @@ Vaak-Bhaavna is a website which tells us about emotions as well as gender of the
 * EMOTION PREDICTION - Predicting speaker emotion with the help of speech given as input.
   * 3 emotion: Positive, Negative, Neutral
   * 6 emotion:Happy, sad, Angry, Fear, Neutral, Surprise
-  * 7 emotion: Disugust,Happy, sad, Angry, Fear, Neutral, Surprise
+  * 7 emotion: Disugust, Happy, sad, Angry, Fear, Neutral, Surprise
 
 # Technologies used:
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) <br />
