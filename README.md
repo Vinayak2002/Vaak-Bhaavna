@@ -27,7 +27,7 @@ Vaak-Bhaavna is a website which tells us about emotions as well as gender of the
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) <br />
 
 # How to use - 
-The web-application predicts the emotion from the audio input given.It can also predict the gender of the speaker. You can either upload an audio file you can record the live audio and download it in .wav format
+The web-application predicts the emotion from the audio input given. It can also predict the gender of the speaker. You can either upload an audio file you can record the live audio and download it in .wav format
 
 
 # Website layout
