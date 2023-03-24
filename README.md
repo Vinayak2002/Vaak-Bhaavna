@@ -15,6 +15,9 @@
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) 
 
 Vaak-Bhaavna is a website which tells us about emotions as well as gender of the speaker with the help of the speech input which the person gives and based on its speech-emotion recognition technique.It can classify emotion into 3 classes: Positive,Negative and Neutral. The emotions which can be classified into happy, sad, fear, angry, disgust, neutral and surprise.
+ <p align ="center" >
+  <img  width="700" src="https://github.com/Vinayak2002/Vaak-Bhaavna/blob/main/images/schema.png" alt="Material Bread logo">
+  </p>
 
 # Features - 
 
